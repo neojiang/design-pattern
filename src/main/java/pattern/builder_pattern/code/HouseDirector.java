@@ -1,4 +1,4 @@
-package pattern.builder_pattern;
+package pattern.builder_pattern.code;
 
 import lombok.Setter;
 
@@ -23,14 +23,4 @@ public class HouseDirector {
         return houseBuilder.buildHouse();
     }
 
-    public static void main(String[] args) {
-
-        HouseDirector commonDirector = new HouseDirector(new CommonBuilding());
-        House common = commonDirector.constructHouse();
-        System.out.println(common);
-        System.out.println();
-        HouseDirector highDirector = new HouseDirector(new HighBuilding());
-        House high = highDirector.constructHouse();
-        System.out.println(high);
-    }
 }

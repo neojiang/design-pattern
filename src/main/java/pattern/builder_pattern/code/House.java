@@ -1,4 +1,4 @@
-package pattern.builder_pattern;
+package pattern.builder_pattern.code;
 
 import lombok.Data;
 
